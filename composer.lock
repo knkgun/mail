@@ -39,13 +39,13 @@
                 }
             },
             "autoload": {
-                "psr-4": {
-                    "Amp\\": "lib"
-                },
                 "files": [
                     "lib/functions.php",
                     "lib/Internal/functions.php"
-                ]
+                ],
+                "psr-4": {
+                    "Amp\\": "lib"
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -123,12 +123,12 @@
                 }
             },
             "autoload": {
-                "psr-4": {
-                    "Amp\\ByteStream\\": "lib"
-                },
                 "files": [
                     "lib/functions.php"
-                ]
+                ],
+                "psr-4": {
+                    "Amp\\ByteStream\\": "lib"
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -192,14 +192,14 @@
             },
             "type": "library",
             "autoload": {
-                "psr-4": {
-                    "Amp\\Parallel\\": "lib"
-                },
                 "files": [
                     "lib/Context/functions.php",
                     "lib/Sync/functions.php",
                     "lib/Worker/functions.php"
-                ]
+                ],
+                "psr-4": {
+                    "Amp\\Parallel\\": "lib"
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -309,12 +309,12 @@
             },
             "type": "library",
             "autoload": {
-                "psr-4": {
-                    "Amp\\Process\\": "lib"
-                },
                 "files": [
                     "lib/functions.php"
-                ]
+                ],
+                "psr-4": {
+                    "Amp\\Process\\": "lib"
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -367,12 +367,12 @@
             },
             "type": "library",
             "autoload": {
-                "psr-4": {
-                    "Amp\\Serialization\\": "src"
-                },
                 "files": [
                     "src/functions.php"
-                ]
+                ],
+                "psr-4": {
+                    "Amp\\Serialization\\": "src"
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -423,13 +423,13 @@
             },
             "type": "library",
             "autoload": {
-                "psr-4": {
-                    "Amp\\Sync\\": "src"
-                },
                 "files": [
                     "src/functions.php",
                     "src/ConcurrentIterator/functions.php"
-                ]
+                ],
+                "psr-4": {
+                    "Amp\\Sync\\": "src"
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -779,12 +779,12 @@
             },
             "type": "library",
             "autoload": {
-                "psr-0": {
-                    "HTMLPurifier": "library/"
-                },
                 "files": [
                     "library/HTMLPurifier.composer.php"
                 ],
+                "psr-0": {
+                    "HTMLPurifier": "library/"
+                },
                 "exclude-from-classmap": [
                     "/library/HTMLPurifier/Language/"
                 ]
@@ -1741,13 +1741,13 @@
             },
             "type": "library",
             "autoload": {
-                "psr-4": {
-                    "Rubix\\ML\\": "src/"
-                },
                 "files": [
                     "src/constants.php",
                     "src/functions.php"
-                ]
+                ],
+                "psr-4": {
+                    "Rubix\\ML\\": "src/"
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -1882,14 +1882,14 @@
             },
             "type": "library",
             "autoload": {
-                "psr-4": {
-                    "Tensor\\": "src/",
-                    "JAMA\\": "lib/JAMA",
-                    "Zephir\\Optimizers\\FunctionCall\\": "optimizers/"
-                },
                 "files": [
                     "src/constants.php"
-                ]
+                ],
+                "psr-4": {
+                    "JAMA\\": "lib/JAMA",
+                    "Tensor\\": "src/",
+                    "Zephir\\Optimizers\\FunctionCall\\": "optimizers/"
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -2032,12 +2032,12 @@
                 }
             },
             "autoload": {
-                "psr-4": {
-                    "Symfony\\Polyfill\\Mbstring\\": ""
-                },
                 "files": [
                     "bootstrap.php"
-                ]
+                ],
+                "psr-4": {
+                    "Symfony\\Polyfill\\Mbstring\\": ""
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -2080,16 +2080,16 @@
         },
         {
             "name": "symfony/polyfill-php73",
-            "version": "v1.23.0",
+            "version": "v1.26.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php73.git",
-                "reference": "fba8933c384d6476ab14fb7b8526e5287ca7e010"
+                "reference": "e440d35fa0286f77fb45b79a03fedbeda9307e85"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-php73/zipball/fba8933c384d6476ab14fb7b8526e5287ca7e010",
-                "reference": "fba8933c384d6476ab14fb7b8526e5287ca7e010",
+                "url": "https://api.github.com/repos/symfony/polyfill-php73/zipball/e440d35fa0286f77fb45b79a03fedbeda9307e85",
+                "reference": "e440d35fa0286f77fb45b79a03fedbeda9307e85",
                 "shasum": ""
             },
             "require": {
@@ -2098,7 +2098,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "1.23-dev"
+                    "dev-main": "1.26-dev"
                 },
                 "thanks": {
                     "name": "symfony/polyfill",
@@ -2106,12 +2106,12 @@
                 }
             },
             "autoload": {
-                "psr-4": {
-                    "Symfony\\Polyfill\\Php73\\": ""
-                },
                 "files": [
                     "bootstrap.php"
                 ],
+                "psr-4": {
+                    "Symfony\\Polyfill\\Php73\\": ""
+                },
                 "classmap": [
                     "Resources/stubs"
                 ]
@@ -2152,7 +2152,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-02-19T12:13:01+00:00"
+            "time": "2022-05-24T11:49:31+00:00"
         },
         {
             "name": "symfony/polyfill-php80",
@@ -2182,12 +2182,12 @@
                 }
             },
             "autoload": {
-                "psr-4": {
-                    "Symfony\\Polyfill\\Php80\\": ""
-                },
                 "files": [
                     "bootstrap.php"
                 ],
+                "psr-4": {
+                    "Symfony\\Polyfill\\Php80\\": ""
+                },
                 "classmap": [
                     "Resources/stubs"
                 ]
